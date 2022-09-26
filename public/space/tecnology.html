@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space turism</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="box-border bg-[url('/public/img/technology/background-technology-desktop.jpg')] ">
+  <span class="absolute box-border w-16 h-16 left-10 right-0 top-14 bottom-0 inline-block ">
+    <img class="animate-spin-icon" src="/public/img/shared/logo.svg" alt="">
+  </span>
+  <button id="btn-open" class="absolute left-auto right-10 top-16 z-20 items-center bottom-auto md:hidden">
+    <img id="imagen-btn" src="/public/img/shared/icon-hamburger.svg" alt="">
+  </button>
+  <button id="btn-closed"
+    class="hidden fixed left-52 right-auto top-2  items-center -translate-x-full duration-1000 bottom-auto md:hidden z-50 cursor-pointe translate-y-0">
+    <img src="/public/img/shared/icon-close.svg" alt="">
+  </button>
+  <nav class=" flex justify-end">
+
+    <ul
+      class="menu md:h-20 md:flex md:w-full md:sticky  md:pr-20 md:justify-end md:items-center md:p-5 md:mt-10  md:space-x-6 uppercase font-mono text-gray-400 md:text-md  fixed left-0 right-0 top-0 bottom-0 -translate-x-full md:-translate-x-0 duration-500 md:duration-75 translate-y-0 w-60 md:bg-transparent bg-regal-blue z-40 md:text-center text-justify pl-3 md:pl-0  ">
+
+
+
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0 ">
+        <a class="  " href="/index.html"><span class="text-gray-100">00</span> Home</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/destination.html"><span class="text-gray-100">01</span> Destination</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/crew.html"><span class="text-gray-100">02</span> Crew</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/tecnology.html"><span class="text-gray-100">03</span> Tecnology</a>
+      </li>
+    </ul>
+
+  </nav>
+  <main class=" md:m-10 mt-40  ">
+    <h2 class="box-border md:text-justify pb-5 text-center text-gray-400 m-4">03 SPACE LAUNCH 101</h2>
+    <section class=" text-md text-gray-400  grid md:grid-cols-2 grid-cols-1 place-content-center m-5 ">
+
+
+      <div class="grid place-content-center text-center  md:text-justify box-border md:place-content-start ">
+
+        <div class=" md:flex md:justify-center  md:space-x-8  ">
+
+          <div class="text-black md:grid md:gap-y-3 flex md:flex-none justify-center space-x-6 mt-5 md:space-x-0 ">
+            <button id="btn-1"
+              class="w-10 h-10 bg-gray-600 focus:bg-gray-200 rounded-full  m-0 font-bold focus:border-green-400 focus:border-2 ">1</button>
+            <button id="btn-2"
+              class="w-10 h-10 bg-gray-600 focus:bg-gray-200 rounded-full  m-0 font-bold  focus:border-green-400  focus:border-2 ">2</button>
+            <button id="btn-3"
+              class="w-10 h-10 bg-gray-600 focus:bg-gray-200 rounded-full  m-0 font-bold  focus:border-green-400  focus:border-2 ">3</button>
+          </div>
+
+          <div class="md:w-auto h-60 md:h-52 md:space-y-3 space-y-4 mt-5 italic ">
+            <p class="text-sm">THE TERMINOLOGY...</p>
+            <h1 id="name" class="text-gray-200 font-bold"></h1>
+            <p id="description" class="md:text-justify md:left-6  "></p>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div
+        class=" 
+             md:order-last order-first justify-center flex md:flex-none md:absolute md:left-auto md:right-0 md:top-auto md:bottom-0">
+        <picture class=" ">
+          <img id="image" src="" alt="Cohete" class="w-60 h-60 md:w-96 md:h-auto rounded-md md:rounded-none">
+        </picture>
+      </div>
+    </section>
+
+  </main>
+  <script src="./tecnology.js"></script>
+</body>
+
+</html>

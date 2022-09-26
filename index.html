@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space turism</title>
+  <link rel="stylesheet" href="./public/css/styles.css">
+
+
+</head>
+
+<body class="box-border md:bg-[url('/public/img/home/background-home-desktop.jpg')]
+ bg-[url('/public/img/home/background-home-tablet.jpg')] ">
+  <span class="absolute  w-16 h-16 left-10 right-0 top-14 bottom-0  ">
+    <img class="animate-spin-icon" src="/public/img/shared/logo.svg" alt="">
+  </span>
+  <button id="btn-open" class="absolute left-auto right-10 top-16 z-20 items-center bottom-auto md:hidden">
+    <img id="imagen-btn" src="/public/img/shared/icon-hamburger.svg" alt="">
+  </button>
+  <button id="btn-closed"
+    class=" fixed  left-52 right-auto top-2 hidden  items-center bottom-auto md:hidden z-50  cursor-pointer">
+    <img src="/public/img/shared/icon-close.svg" alt="">
+  </button>
+  <nav class="w-full ">
+    <ul
+      class="menu md:h-20 md:flex md:w-full md:sticky  md:pr-20 md:justify-end md:items-center md:p-5 md:mt-10  md:space-x-6 uppercase font-mono text-gray-600 md:text-md  fixed left-0 right-0 top-0 bottom-0 -translate-x-full md:-translate-x-0 duration-500 md:duration-75 translate-y-0 w-60 md:bg-transparent bg-regal-blue z-40 md:text-center text-justify pl-3 md:pl-0 ">
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0 ">
+        <a class="  " href="/index.html"><span class="text-gray-100">00</span> Home</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/destination.html"><span class="text-gray-100">01</span> Destination</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/crew.html"><span class="text-gray-100">02</span> Crew</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/tecnology.html"><span class="text-gray-100">03</span> Tecnology</a>
+      </li>
+    </ul>
+
+  </nav>
+  <main class="md:relative grid place-content-center  items-center md:m-10 text-gray-400 mt-40 ">
+    <article class="grid md:grid-cols-2 md:gap-5 grid-cols-1 text-center ">
+      <div class="md:w-96 box-border m-5 space-y-4 md:text-justify md:mt-20">
+        <p>SO, YOU WANT TO TRAVEL TO</p>
+        <h1 class="text-white md:text-8xl text-5xl font-serif ">SPACE</h1>
+        <P class="whitespace-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet molestias
+          adipisci amet voluptate officiis, facilis natus veritatis quos soluta expedita incidunt inventore doloremque
+          atque, blanditiis alias recusandae corrupti. Impedit, aperiam?
+        </P>
+      </div>
+      <div class=" md:absolute md:left-auto md:bottom-10 md:top-0 md:right-10 flex justify-center mt-10 ">
+        <a
+          class=" bg-white w-32 h-32 md:w-52 md:h-52 text-slate-600 font-mono text-lg rounded-full flex items-center justify-center after:absolute after:content-[''] md:after:w-60 after:-z-10 after:bg-regal-blue after:rounded-full md:after:h-60 after:h-36 after:w-36  
+        after:duration-1000 after:ease-in-out after:opacity-0 hover:after:scale-150 hover:after:opacity-100 select-none cursor-pointer font-bold">
+          EXPLORE</a>
+      </div>
+    </article>
+
+
+
+  </main>
+  <script src="./public/space/app.js"></script>
+</body>
+
+</html>

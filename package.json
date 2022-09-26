@@ -1,0 +1,19 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
