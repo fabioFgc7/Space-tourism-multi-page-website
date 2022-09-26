@@ -3,7 +3,7 @@ const tourismSistem = [
     {
       id: 1,
       name: "MOON",
-      img: "/public/img/destination/image-moon.webp",
+      img: "./public/img/destination/image-moon.webp",
       description:
         "The Moon is Earth's only natural satellite. Together with Earth it forms the Earth–Moon satellite system. It is about one-quarter of Earth in diameter (comparable to the width of Australia).[16] In the Solar System it is the fifth largest satellite, larger than any of the known dwarf planets and the largest (and most massive) satellite of a planet relative to the planet.",
       ditance: "362 600 km",
@@ -13,7 +13,7 @@ const tourismSistem = [
       id: 2,
       name: "MARS",
   
-      img: "/public/img/destination/image-mars.webp",
+      img: "./public/img/destination/image-mars.webp",
       description:
         "​Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.",
       ditance: "225 MIL. KM",
@@ -23,7 +23,7 @@ const tourismSistem = [
       id: 3,
       name: "EUROPA",
   
-      img: "/public/img/destination/image-europa.webp",
+      img: "./public/img/destination/image-europa.webp",
       description:
         "Europa may be the most promising place in our solar system to find present-day environments suitable for some form of life beyond Earth.",
       ditance: "628.3 millones km",
@@ -33,7 +33,7 @@ const tourismSistem = [
       id: 4,
       name: "TITAN",
   
-      img: "/public/img/destination/image-titan.webp",
+      img: "./public/img/destination/image-titan.webp",
       description:
         "Saturn’s largest moon Titan is an extraordinary and exceptional world. Among our solar system’s more than 150 known moons, Titan is the only one with a substantial atmosphere. And of all the places in the solar system, Titan is the only place besides Earth known to have liquids in the form of rivers, lakes and seas on its surface.",
       ditance: "746 million miles",
