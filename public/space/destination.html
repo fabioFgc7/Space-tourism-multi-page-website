@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space turism</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="box-border md:bg-[url('/public/img/destination/background-destination-desktop.jpg')]
+bg-[url('/public/img/destination/background-destination-tablet.jpg')]
+ ">
+  <span class="absolute box-border w-16 h-16 left-10 right-0 top-14 bottom-0 inline-block ">
+    <img class="animate-spin-icon" src="/public/img/shared/logo.svg" alt="">
+  </span>
+  <button id="btn-open" class="absolute left-auto right-10 top-16 z-20 items-center bottom-auto md:hidden">
+    <img id="imagen-btn" src="/public/img/shared/icon-hamburger.svg" alt="">
+  </button>
+  <button id="btn-closed"
+    class="hidden absolute left-52 right-auto top-2  items-center bottom-auto md:hidden z-50 cursor-pointer">
+    <img src="/public/img/shared/icon-close.svg" alt="">
+  </button>
+  <nav class=" w-full">
+
+    <ul
+      class="menu md:h-20 md:flex md:w-full md:sticky  md:pr-20 md:justify-end md:items-center md:p-5 md:mt-10  md:space-x-6 uppercase font-mono text-gray-400 md:text-md  fixed left-0 right-0 top-0 bottom-0 -translate-x-full md:-translate-x-0 duration-500 md:duration-75 translate-y-0 w-60 md:bg-transparent bg-regal-blue z-40 text-justify pl-3 md:pl-0 ">
+
+
+
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0 ">
+        <a class="  " href="/index.html"><span class="text-gray-100">00</span> Home</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0 cursor-pointer">
+        <a class="" href="/public/space/destination.html"><span class="text-gray-100">01</span> Destination</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/crew.html"><span class="text-gray-100">02</span> Crew</a>
+      </li>
+      <li class="box-border border-b-2 border-transparent  hover:border-white p-4 pl-0 pr-0">
+        <a class="" href="/public/space/tecnology.html"><span class="text-gray-100">03</span> Tecnology</a>
+      </li>
+    </ul>
+
+  </nav>
+  <main class="box-border mt-40  md:mt-24 text-center md:text-justify text-gray-400 place-content-center ">
+    <h1 class="md:absolute  md:left-36 md:right-auto bottom-0 top-40  ">01 PICK YOUR DESTINATION</h1>
+    <section class="w-full grid md:grid-cols-2 md:gap-4 ml-auto mr-auto gap-y-4 md:gap-y-0 grid-cols-1 ">
+
+      <article class="text-justify place-content-center grid">
+
+        <picture>
+          <img id="img" class="w-64 mt-5 mr-auto ml-auto select-none animate-spin-slow" src="" alt="PLANETS">
+        </picture>
+      </article>
+      <div class="text-center space-y-6 w-3/4 mr-auto ml-auto md:text-justify md:mb-10">
+        <ul class=" flex justify-center md:justify-start space-x-6">
+          <li id="moon" class="box-border border-b-2 border-transparent  hover:border-white p-2 pl-0 pr-0"><a
+              href="#">MOON</a></li>
+          <li id="mars" class="box-border border-b-2 border-transparent  hover:border-white p-2 pl-0 pr-0"><a
+              href="#">MARS</a>
+          </li>
+          <li id="europa" class="box-border border-b-2 border-transparent  hover:border-white p-2 pl-0 pr-0"><a
+              href="#">EUROPA</a></li>
+          <li id="titan" class="box-border border-b-2 border-transparent  hover:border-white p-2 pl-0 pr-0"><a
+              href="#">TITAN</a></li>
+        </ul>
+
+        <h1 id="name" class="md:text-6xl text-4xl font-serif text-white "></h1>
+        <p id="description" class="text-justify"></p>
+        <section
+          class="md:flex space-y-4 text-center w-full md:space-x-6 border-t-2 pt-4 md:space-y-0 border-gray-500 md:text-justify font-serif ">
+          <article class=" border-b-2 border-b-gray-400 pb-3 md:border-b-0 md:pb-0">
+            <p class="text-xs">AVG. DISTANCE</p>
+            <h3 id="distance" class="text-gray-300"></h3>
+          </article>
+          <article>
+            <p class="text-xs">EST. TRAVEL TIME</p>
+            <h3 id="months" class="text-gray-300"></h3>
+          </article>
+
+        </section>
+
+      </div>
+
+
+    </section>
+  </main>
+  <script src="./destination.js"></script>
+</body>
+
+</html>
